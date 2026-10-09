@@ -1,6 +1,6 @@
 <?php
 // Hostinger/PHP proxy to the Claude API. The key is read from a file OUTSIDE public_html (support-chat-key.txt).
-const MODEL = 'claude-haiku-5-5';
+const MODEL = 'claude-opus-5-5';
 const ALLOWED_HOSTS = ['joinbpr.com', 'www.joinbpr.com', 'bpr.cash', 'www.bpr.cash'];
 const SYSTEM = "أنت مساعد الدعم ديال مجتمع BPR (Challenge 90 Days).\n"
   . "جاوب غير بناءً على محتوى الصفحة اللي ف <page_content>. إلا ما لقيتيش الجواب فيه، قول بصراحة أنك ما كتعرفوش وانصح الزائر يتواصل مع الفريق.\n"

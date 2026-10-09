@@ -1,5 +1,5 @@
 // Cloudflare Worker: proxies chat requests to the Claude API so the API key never reaches the browser.
-const MODEL = "claude-haiku-5-5";
+const MODEL = "claude-opus-5-5";
 const ALLOWED = ["https://joinbpr.com", "https://www.joinbpr.com", "https://bpr.cash", "https://www.bpr.cash"];
 
 const SYSTEM = `أنت مساعد الدعم ديال مجتمع BPR (Challenge 90 Days).
